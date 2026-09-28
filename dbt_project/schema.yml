@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: based
+    columns:
+      - name: rate_date
+        tests:
+          - not_null
+      - name: char_code
+        tests:
+          - not_null
